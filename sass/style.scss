@@ -1,0 +1,38 @@
+@mixin fontStyle($family,$size,$style) {
+font-family:$family;
+  font-style:$style;
+  font-size:$size;
+}
+
+@mixin background($color) {
+	background-color:$color
+}
+
+@mixin centered(){
+	display:table;
+	margin: 0 auto;
+}
+
+.centered{
+	@include centered();
+}
+
+.headline {
+	@include fontStyle(Lobster,60px,bold)
+}
+
+.quote {
+	@include fontStyle(Amatic SC,120px,bold)
+}
+
+.content {
+	@include fontStyle(Roboto Slab,20px,bold);
+}
+
+.date {
+	@include fontStyle(arial,12px,italic)
+}
+
+.details {
+	@include fontStyle(Roboto Slab,12px,bold)
+}

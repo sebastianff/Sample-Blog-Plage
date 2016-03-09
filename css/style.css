@@ -1,0 +1,30 @@
+.centered {
+  display: table;
+  margin: 0 auto; }
+
+.headline {
+  font-family: Lobster;
+  font-style: bold;
+  font-size: 60px; }
+
+.quote {
+  font-family: Amatic SC;
+  font-style: bold;
+  font-size: 120px; }
+
+.content {
+  font-family: Roboto Slab;
+  font-style: bold;
+  font-size: 20px; }
+
+.date {
+  font-family: arial;
+  font-style: italic;
+  font-size: 12px; }
+
+.details {
+  font-family: Roboto Slab;
+  font-style: bold;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
