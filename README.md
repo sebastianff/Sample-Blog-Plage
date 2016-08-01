@@ -1,4 +1,4 @@
-# Simple Blog Page
+# Sample Blog Page
 Single Page Blog Post</br>
 Author: Sebastian Farago </br>
 Email: sebastianffarago@gmail.com</br>
